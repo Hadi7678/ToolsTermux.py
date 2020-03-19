@@ -112,3 +112,90 @@ read -p “╰─#” pil;
 
 case $pil in
 
+echo -e “${y} {1}https://github.com/hadi7678/Hack-wifi ${endc}:”
+
+read web
+
+nmap $web
+
+echo
+
+;;
+
+# admin-finder
+
+echo -e “${y} cd admin-finder”
+
+echo -e “${y} python admin-finder.py”
+
+cd
+
+/data/data/com.termux/files/home/admin-finder/
+
+python2
+
+/data/data/com.termux/files/home/admin-finder/admin-finder.py
+
+echo
+
+;;
+
+#RED_HAWK
+
+echo -e “${y} Installer RED_HAWK…”
+
+echo -e “${y} cd RED_HAWK”
+
+echo -e “${y} php RED_HAWK.php”
+
+cd /data/data/com.termux/files/home/RED_HAWK/
+
+php /data/data/com.termux/files/home/RED_HAWK/
+
+RED_HAWK.php
+
+;;
+
+#Lazymux
+
+
+echo -e “${y} Installer Lazymux…”
+
+echo -e “${y} cd Lazymux”
+
+echo -e “${y} python lazymux.py”
+
+cd /data/data/com.termux/files/home/Lazymux/
+
+python2
+
+/data/data/com.termux/files/home/Lazymux/
+
+lazymux.py
+
+;;
+
+#Tools-X
+
+echo -e “${y} Installer Tool-X…”
+
+echo -e “${y} cd Tool-X”
+
+echo -e “${y} sh install.aex”
+
+cd /data/data/com.termux/files/home/Tool-X
+
+bash /data/data/com.termux/files/home/Tool-X/sh
+
+install.aex
+
+;;
+
+echo “created by :Mr_hadi88 $white | lolcat
+
+exit
+
+;;
+
+
+
