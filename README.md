@@ -111,3 +111,14 @@ read -p “╰─#” pil;
 # Nmap
 
 case $pil in
+
+echo -e “${y} {1} Masukkan Web${endc}:”
+
+read web
+
+nmap $web
+
+echo
+
+;;
+
